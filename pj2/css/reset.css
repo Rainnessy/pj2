@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111111;
+}
+nav ul li{
+    float: left;
+}
+nav ul div{
+    float:right;
+}
+nav ul div:hover{
+    display: block;
+}
+nav ul li a,.dropbtn,.login,.login a{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropbtn{
+    cursor: pointer;
+}
+.login:hover{
+    background-color: #444444;
+}
+
+nav ul li a:hover, .dropdown:hover,.active{
+    background-color: #444444;
+}
+nav ul li .login{
+    display: inline-block;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.login a{
+    color:white;
+    display: contents;
+}
+.dropdown {
+    display: inline-block;
+    right: 0;
+    position: relative;
+    width: 115px;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f9f9f9;
+    width: 115px;
+    height: 180px;
+    text-align: center;
+    position: relative;
+    top: 0px;
+}
+.dropdown-content a{
+    color: black;
+    padding: 14px 0px 16px 0px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+footer{
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+    bottom: 0;
+    position: absolute;
+    height: 1em;
+    width: 100%;
+}
+footer .row{
+    font-size: 0.8em;
+    text-align: center;
+}

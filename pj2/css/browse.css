@@ -1,0 +1,82 @@
+h2{
+    background-color: #eeeeee;
+    padding: 5px;
+    border: 1px solid gainsboro;
+}
+.main{
+    width: 900px;
+    margin: 10px 100px 10px 100px;
+    border: hidden;
+}
+.country,.area,.hot,aside section{
+    width: 210px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    margin: 10px 0;
+}
+aside div div{
+    border: 1px solid gainsboro;
+    padding: 5px;
+}
+footer{
+    position: relative;
+}
+input{
+    padding: 5px 5px 5px 7px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+section input,section div{
+    margin: 5px 0;
+}
+article{
+    margin-left: 220px;
+    width: 780px;
+    border: 1px solid gainsboro;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+aside{
+    float: left;
+}
+.photo{
+    margin: 0px 10px 10px;
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+}
+.footer{
+    text-align: center;
+    color: blue;
+    bottom: 1em;
+}
+footer{
+    clear:both;
+    position: relative;
+}
+.button{
+    padding: 10px;
+    border: 1px solid gainsboro;
+    text-align: center;
+}
+select,button{
+    width: 150px;
+    margin-right: 20px;
+    padding: 5px 0;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+div.mypic{
+    width:176px;
+    height: 210px;
+    float: left;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 15px 0px 0px 15px;
+}
+div.mypic:hover{
+    border: 1px solid #777;
+}
